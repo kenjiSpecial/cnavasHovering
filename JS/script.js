@@ -11,10 +11,10 @@ var startDataArray;
 var img;
 
 window.onload = function() {
-	canvas = document.getElementById("ImgCanvas");
+	canvas = document.getElementById("canvas1");
 	context = canvas.getContext("2d");
 	img = new Image();
-	img.src = "img/material.png";
+	img.src = "img/test06.png";
 	img.addEventListener("load", eventImageLoaded, false);
 
 	//set the startDataArray;
@@ -41,6 +41,7 @@ window.onload = function() {
 
 }
 mouseOver = function() {
+	// alert("mouseOver");
 	count = 0;
 	timeVar = setInterval(function() {
 		myTimer()

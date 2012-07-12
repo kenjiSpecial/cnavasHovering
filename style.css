@@ -18,8 +18,20 @@ div.work{
 	float: left;
 }
 
-
-
 div.work:nth-child(3n+3) {
 	margin-right: 0;
+}
+
+div.caption{
+	text-align: right;
+	font-size: 12px;
+}
+
+div.headline{
+	text-align: right;
+	font-size: 12px;
+}
+
+canvas{
+	margin-bottom: 15px;
 }
